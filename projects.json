@@ -28,6 +28,20 @@
     "releases": []
   },
   {
+    "repo": "tiwut/Brew-Formula-Generator",
+    "description": "A modern, cross-platform C++ GUI application built with Qt 6 to dynamically generate Homebrew formulas.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/Brew-Formula-Generator.git",
+    "releases": [
+      {
+        "version": "v1.1.1",
+        "name": "BrewFormulaGenerator.AppImage",
+        "url": "https://github.com/tiwut/Brew-Formula-Generator/releases/download/v1.1.1/BrewFormulaGenerator.AppImage",
+        "size": 40475034
+      }
+    ]
+  },
+  {
     "repo": "tiwut/Quantum-Task",
     "description": "An advanced, high-performance, cross-platform system task manager and interactive hardware diagnostics suite engineered in modern C++17 and Qt6.",
     "buildSystem": "cmake",
