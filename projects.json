@@ -1,12 +1,12 @@
 [
   {
-    "repo": "-",
+    "repo": "tiwut/tiwut",
     "description": "only for .rpm test!!!",
     "buildSystem": "none",
-    "cloneUrl": "-",
+    "cloneUrl": "https://github.com/tiwut/tiwut.git",
     "releases": [
       {
-        "version": "v0.0.0",
+        "version": "v0.0.1",
         "name": "google-chrome-stable_current_x86_64.rpm",
         "url": "https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm",
         "size": 40475034
