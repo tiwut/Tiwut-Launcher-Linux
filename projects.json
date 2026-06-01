@@ -4,7 +4,14 @@
     "description": "Tiwut Terminal is an ultra-fast, cross-platform command-line emulator built natively in C++ using the Qt 6 framework. It simulates a fully functional OS environment securely nested within a dedicated local path.",
     "buildSystem": "cmake",
     "cloneUrl": "https://github.com/tiwut/Tiwut-Terminal.git",
-    "releases": []
+    "releases": [
+      {
+        "version": "v2.3.3",
+        "name": "Tiwut_Terminal-x86_64.AppImage",
+        "url": "https://github.com/tiwut/Tiwut-Terminal/releases/download/v2.3.3/Tiwut_Terminal-x86_64.AppImage",
+        "size": 40475034
+      }
+    ]
   },
   {
     "repo": "tiwut/Notepad",
