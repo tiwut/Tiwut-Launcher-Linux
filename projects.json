@@ -1,5 +1,19 @@
 [
   {
+    "repo": "localsend/localsend",
+    "description": "only for .deb test!!!",
+    "buildSystem": "none",
+    "cloneUrl": "https://github.com/localsend/localsend.git",
+    "releases": [
+      {
+        "version": "v1.17.0",
+        "name": "LocalSend-1.17.0-linux-x86-64.deb",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.deb",
+        "size": 40475034
+      }
+    ]
+  },
+  {
     "repo": "tiwut/Tiwut-Terminal",
     "description": "Tiwut Terminal is an ultra-fast, cross-platform command-line emulator built natively in C++ using the Qt 6 framework. It simulates a fully functional OS environment securely nested within a dedicated local path.",
     "buildSystem": "cmake",
