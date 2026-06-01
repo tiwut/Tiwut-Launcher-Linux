@@ -1,0 +1,72 @@
+[
+  {
+    "repo": "tiwut/MacOS-AirBridge-Pro",
+    "description": "AirBridge Pro is a native, high-performance, ultra-lightweight macOS desktop application written in Swift and SwiftUI.",
+    "buildSystem": "none",
+    "cloneUrl": "https://github.com/tiwut/MacOS-AirBridge-Pro.git",
+    "releases": [
+      {
+        "version": "v1.1.1",
+        "name": "Tiwut-AirBridge-Pro.dmg",
+        "url": "https://github.com/tiwut/MacOS-AirBridge-Pro/releases/download/v1.1.1/Tiwut-AirBridge-Pro.dmg",
+        "size": 3219128
+      }
+    ]
+  },
+  {
+    "repo": "tiwut/Mac-Top-Bar-Dock",
+    "description": "A lightning-fast, 100% native macOS menu bar app launcher inspired by -DockPops.- It lives in your top menu bar and provides a beautiful, cascading -Liquid Glass- interface to quickly access your favorite apps, files, and folders.",
+    "buildSystem": "none",
+    "cloneUrl": "https://github.com/tiwut/Mac-Top-Bar-Dock.git",
+    "releases": [
+      {
+        "version": "v1.1.1",
+        "name": "Tab.Bar.Dock.dmg",
+        "url": "https://github.com/tiwut/Mac-Top-Bar-Dock/releases/download/v1.1.1/Tab.Bar.Dock.dmg",
+        "size": 100034150
+      }
+    ]
+  },
+  {
+    "repo": "tiwut/Web-Widgets-for-macOS",
+    "description": "A high-performance native macOS application written in Objective-C++ (C++17 and Cocoa) that pins interactive, glassmorphic web-based widgets directly to your desktop background wallpaper, functioning exactly like iOS homescreen widgets.",
+    "buildSystem": "makefile",
+    "cloneUrl": "https://github.com/tiwut/Web-Widgets-for-macOS.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/Tiwut-Terminal",
+    "description": "Tiwut Terminal is an ultra-fast, cross-platform command-line emulator built natively in C++ using the Qt 6 framework. It simulates a fully functional OS environment securely nested within a dedicated local path.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/Tiwut-Terminal.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/Notepad",
+    "description": "CodePad is a high-performance, cross-platform code and text editor built with C++ and the Qt framework.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/Notepad.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/Docker-Auto-Updater",
+    "description": "A lightweight, blazing-fast C++ Qt application that allows you to manage, rebuild, and securely update your Docker Hub images with zero CLI usage.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/Docker-Auto-Updater.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/Quantum-Task",
+    "description": "An advanced, high-performance, cross-platform system task manager and interactive hardware diagnostics suite engineered in modern C++17 and Qt6.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/Quantum-Task.git",
+    "releases": [
+      {
+        "version": "v1.1.1",
+        "name": "QuantumTask-M1-or-newer.dmg",
+        "url": "https://github.com/tiwut/Quantum-Task/releases/download/v1.1.1/QuantumTask-M1-or-newer.dmg",
+        "size": 2940000
+      }
+    ]
+  }
+]
