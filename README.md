@@ -1,14 +1,14 @@
-# Tiwut Launcher
+# Tiwut Launcher (Linux Edition)
 
-A modern, high-performance, and beautifully crafted application manager and compiler for Linux. Tiwut Launcher combines the robustness of **Qt6 (C++)** with the fluid, dynamic aesthetics of a web frontend powered by **Qt WebEngine** to deliver a premium, blur-glass visual experience.
+A premium, frosted Glass native Linux launcher designed exclusively for compiling, installing, running, and managing Tiwut applications in a non-root, user-space environment. Built with a 100% native CPP backend integrated with a responsive WebKit user interface.
 
-Tiwut Launcher automates the entire process of discovering, downloading, compiling, launching, and managing Linux applications (both binary releases and source code) directly in a non-root, user-space environment.
+<img width="1074" height="855" alt="image" src="https://github.com/user-attachments/assets/ccd39d64-a4c0-4188-b565-fe2ea51e4d7b" />
 
 ---
 
 ## Features
 
-- **Blur Glass Modern UI**: Transparent window overlay with smooth hover effects, micro-animations, full CSS glassmorphism, dynamic console logs, and built-in tabbed navigation.
+- **frosted Glass Modern UI**: Transparent window overlay with smooth hover effects, micro-animations, full CSS glassmorphism, dynamic console logs, and built-in tabbed navigation.
 - **Subprocess Downloader with Fail-safes**: Downloads remote files asynchronously. If the native Qt network manager encounters a problem, it automatically drops through robust fallbacks:
   1. Native Qt network download
   2. `curl` subprocess download
@@ -93,15 +93,6 @@ sudo pacman -S cmake gcc qt6-base qt6-webengine
 │   └── index.html         # Rich Liquid-Glass UI & frontend application logic
 └── build/                 # Created build outputs
 ```
-
----
-
-## How Portability is Achieved
-
-The launcher is designed to run out-of-the-box on different Linux machines without local directory assumptions:
-- **No Hardcoded User Paths**: Absolute paths to developer directories have been replaced by dynamic application path search methods (`QCoreApplication::applicationDirPath()`).
-- **Dynamic Binary Resolution**: All external helper tools (like `git`, `cmake`, `curl`, etc.) are resolved through the host machine's environment `PATH` variable instead of rigid absolute system paths (e.g. `setProgram("git")` instead of `/usr/bin/git`).
-- **Multiple Execution Layouts**: Features intelligent parent directory lookups (`../src/index.html` and `../../src/index.html`) so it can be launched directly from standard `build/` directories during development or installed in standard system paths (e.g., `/usr/bin/`) portably.
 
 ---
 
