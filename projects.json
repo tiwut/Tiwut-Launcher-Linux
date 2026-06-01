@@ -68,5 +68,12 @@
         "size": 2940000
       }
     ]
+  },
+  {
+    "repo": "tiwut/OS-Studio",
+    "description": "A web-based and native desktop Integrated Development Environment IDE tailored for OS Development.",
+    "buildSystem": "npm",
+    "cloneUrl": "https://github.com/tiwut/OS-Studio.git",
+    "releases": []
   }
 ]
