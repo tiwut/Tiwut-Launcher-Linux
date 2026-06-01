@@ -68,5 +68,19 @@
     "buildSystem": "cmake",
     "cloneUrl": "https://github.com/tiwut/LAN-File-Shuttle.git",
     "releases": []
+  },
+  {
+    "repo": "tiwut/AppImage-Builder",
+    "description": "Build your AppImage with a simple graphical tool for cmake",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/AppImage-Builder.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/CPP-Studio",
+    "description": "Cpp Studio is a lightweight, native C++ IDE for Linux built entirely with Qt6 and C++.",
+    "buildSystem": "cmake",
+    "cloneUrl": "https://github.com/tiwut/CPP-Studio",
+    "releases": []
   }
 ]
