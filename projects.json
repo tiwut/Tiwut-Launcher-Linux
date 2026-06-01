@@ -1,14 +1,14 @@
 [
   {
-    "repo": "localsend/localsend",
-    "description": "only for .deb test!!!",
+    "repo": "-",
+    "description": "only for .rpm test!!!",
     "buildSystem": "none",
-    "cloneUrl": "https://github.com/localsend/localsend.git",
+    "cloneUrl": "-",
     "releases": [
       {
-        "version": "v1.17.0",
-        "name": "LocalSend-1.17.0-linux-x86-64.deb",
-        "url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.deb",
+        "version": "v0.0.0",
+        "name": "google-chrome-stable_current_x86_64.rpm",
+        "url": "https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm",
         "size": 40475034
       }
     ]
