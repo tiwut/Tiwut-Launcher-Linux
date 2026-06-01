@@ -80,7 +80,14 @@
     "repo": "tiwut/CPP-Studio",
     "description": "Cpp Studio is a lightweight, native C++ IDE for Linux built entirely with Qt6 and C++.",
     "buildSystem": "cmake",
-    "cloneUrl": "https://github.com/tiwut/CPP-Studio",
+    "cloneUrl": "https://github.com/tiwut/CPP-Studio.git",
+    "releases": []
+  },
+  {
+    "repo": "tiwut/Ollama-ROCm-Manager---for-Docker-Compose",
+    "description": "A C++ manager with a user interface and Docker backend",
+    "buildSystem": "makefile",
+    "cloneUrl": "https://github.com/tiwut/Ollama-ROCm-Manager---for-Docker-Compose.git",
     "releases": []
   }
 ]
